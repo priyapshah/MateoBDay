@@ -26,3 +26,7 @@ li:nth-child(odd) {
     background-color: #9E323C  ;
     color: white;
 }
+
+.smartphone .body {
+    padding-left: 1em;
+}
