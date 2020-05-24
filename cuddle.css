@@ -55,8 +55,6 @@ ul {
     color:#9E323C;
   }
 
-  @media only screen and (max-width: 3000px) {
-    .message {
-      padding: 0;
-    }
+  .smartphone .message {
+    padding: 0;
   }
