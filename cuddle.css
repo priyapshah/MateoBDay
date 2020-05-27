@@ -55,9 +55,7 @@ ul {
     color:darkred;
   }
 
-  @media only screen and (max-width: 2000px) {
-    .message {
-      margin-left: 0;
-    }
-  }
+  .smartphone .body {
+    padding-left: 1em;
+}
 
