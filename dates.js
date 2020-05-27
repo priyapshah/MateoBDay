@@ -26,8 +26,11 @@ var active = [
     'Rock-climbing',
     'Top Golf',
     'Trampoline Park/ Skyzone',
-    'Play frisbee'
-
+    'Play frisbee',
+    'Learn to Skateboard',
+    'Go Hiking',
+    'Kayaking',
+    
 ];
 
 var home = [
@@ -38,7 +41,9 @@ var home = [
     'Cook a fancy dinner together',
     'Make cupcakes',
     'Write a song',
-    'Watch funny YouTube videos'
+    'Watch funny YouTube videos',
+    'Take Quizzes Online',
+    'Puzzles'
 ];
 
 var romantic = [
@@ -51,7 +56,11 @@ var romantic = [
     'Childhood Movies',
     'Assume new identities and try to pick each other up',
     'Role-play',
-    'Star Gaze'
+    'Star Gaze',
+    'Breakfast in Bed',
+    'Hammock Park',
+    'Spruce Street Harbor Park',
+    'Take A Ferry Ride'
 
 ];
 
@@ -68,7 +77,11 @@ var fun = [
     'Zoo',
     'Pretend to be food critics',
     'Look through very old newspapers',
-    'Laser Tag'
+    'Laser Tag',
+    'Crash a Party',
+    'Throw a Dinner Party',
+    'Go to a Farmer\'s Market',
+
 
 ];
 
