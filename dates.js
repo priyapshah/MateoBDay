@@ -1,20 +1,3 @@
-var food = [
-    'Dim Sum House',
-    'White Dog Cafe',
-    'Allgero\'s',
-    'Copabanana',
-    'Thanal',
-    'Erawan',
-    'Max Brenner',
-    'Crepes',
-    'Dim Sum Garden',
-    'Olive Garden',
-    'Cheesecake Factory',
-    '\&Pizza',
-    'Tony Lukes',
-    'Kings',
-];
-
 var active = [
     'Go Ice Skating',
     'Drunk Just Dance',
@@ -81,14 +64,12 @@ var fun = [
     'Crash a Party',
     'Throw a Dinner Party',
     'Go to a Farmer\'s Market',
+    'Go to Kings',
+    'Dinner Date',
 
 
 ];
 
-function foodIdea() {
-    var randomNumber = Math.floor(Math.random() * (food.length));
-    document.getElementById('mainDisplay').innerHTML = food[randomNumber];
-}
 
 function activeIdea() {
     var randomNumber = Math.floor(Math.random() * (active.length));
