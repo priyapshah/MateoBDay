@@ -36,6 +36,7 @@ var data = [
     { "label": "QDOBA" },
     { "label": "Taco Bell" },
     { "label": "Food Truck" },
+    { "label": "Panera" },
 
 ];
 var svg = d3.select('#chart')
