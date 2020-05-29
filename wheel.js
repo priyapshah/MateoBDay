@@ -24,6 +24,18 @@ var data = [
     { "label": "\&Pizza" },
     { "label": "Tony Lukes" },
     { "label": "Just Salad" },
+    { "label": "Franklin\'s Table" },
+    { "label": "Pasta at Home" },
+    { "label": "Ochatto" },
+    { "label": "Han Dynasty" },
+    { "label": "Pattaya" },
+    { "label": "El Vez" },
+    { "label": "Bonchon" },
+    { "label": "Spread Bagelry" },
+    { "label": "Chipotle" },
+    { "label": "QDOBA" },
+    { "label": "Taco Bell" },
+    { "label": "Food Truck" },
 
 ];
 var svg = d3.select('#chart')
@@ -51,7 +63,7 @@ arcs.append("path")
     .attr("fill", function (d, i) { return color(i); })
     .attr("d", function (d) { return arc(d); });
 // add the text
-arcs.append("text").style({ "font-weight": "bold", "font-size": "15px" }).attr("transform", function (d) {
+arcs.append("text").style({ "font-weight": "bold", "font-size": "12px" }).attr("transform", function (d) {
     d.innerRadius = 0;
     d.outerRadius = r;
     d.angle = (d.startAngle + d.endAngle) / 2;
